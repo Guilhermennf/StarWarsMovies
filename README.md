@@ -31,7 +31,7 @@ yarn start
 
 Neste projeto, ao fazer login com o usuário e senha correto, o usuário será redirecionado para a tela do filme e ao clicar em um filme, ele era redirecionado para os detalhes do filme.
 
-usename: admin
+username: admin
+password: Admin123!
 
 Link do deploy: https://star-wars-movies-gamma.vercel.app/movies
-password: Admin123!
