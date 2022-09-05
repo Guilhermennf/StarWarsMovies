@@ -9,7 +9,7 @@ Criar uma pasta para este projeto e clonar o repositório
 ```
 mkdir projeto
 cd projeto
-git clone https://github.com/Guilhermennf/App-starwars-movies.git .
+git clone https://github.com/Guilhermennf/StarWarsMovies.git .
 ```
 
 ### Segundo passo
