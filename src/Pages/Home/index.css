@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/src/assets/img/estrelas.png");
+    background-size: cover;
+}
+
+.h {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: white;
+    padding: 1rem;
+    margin-left: 33.5vw;
+    margin-top: 30vh;
+}
+
+.h-title {
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.h-background {
+    color: white;
+    font-size: 20px;
+}
+
+.h-textfield {
+    width: 100%;
+    height: 3rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.h-textfield:focus {
+    box-shadow: 0 1px 0 0 #ffff00d0;
+    border-bottom: #ffff00d0 1px solid;
+}
+
+.h-label {
+    color: white;
+    margin-top: 2rem;
+}
+
+.h-button--center {
+    text-align: center;
+}
+
+.h-button {
+    background: transparent;
+    padding: 15px 50px;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid white;
+    margin: 20px;
+    cursor: pointer;
+    transition: ease-in-out 0.25s;
+}
+
+.h-button:hover {
+    background: #ffff00d0;
+}
+
+@media screen and (max-width: 768px) {
+    .h {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+        border-radius: 1rem;
+        border-style: solid;
+        border-color: white;
+        padding: 1rem;
+        margin-left: 15vw;
+        margin-top: 30vh;
+    }
+}
