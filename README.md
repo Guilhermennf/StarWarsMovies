@@ -35,4 +35,4 @@ username: admin
 
 password: Admin123!
 
-Link do deploy: https://star-wars-movies-gamma.vercel.app/movies
+Link do deploy: https://star-wars-movies-gamma.vercel.app
